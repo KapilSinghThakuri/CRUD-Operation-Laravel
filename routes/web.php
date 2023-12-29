@@ -27,7 +27,7 @@ Route::post('products/store',[productcontroller::class,'store']);
 
 Route::get('products/{id}/edit',[productcontroller::class,'edit']);
 
-Route::put('products/{id}/update',[productcontroller::class,'update']); //(put or patch) mehtod for update data
+Route::put('products/{id}/update',[productcontroller::class,'update']); //(put or patch) methods for update data
 
 Route::get('products/{id}/delete',[productcontroller::class,'destroy']);
 
